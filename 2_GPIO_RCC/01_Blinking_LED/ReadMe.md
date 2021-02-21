@@ -1,6 +1,8 @@
-# Technical data - configuration
+# Description
 
-Board Selecor (zakładka)
+
+
+# Technical data - configuration
 
 ### Commercial Port Number: 
 NUCLEO-F411RE
