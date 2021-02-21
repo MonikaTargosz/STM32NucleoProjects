@@ -17,6 +17,18 @@ The code is in int main.c in the while (1) loop because we want to blink the LED
   /* USER CODE END 3 */
 ```
 
+Using HAL_GPIO_TogglePin () to change pin state. It does not take the value of what it is supposed to be, it just changes the current one to the opposite.
+
+```
+  while (1)
+  {
+    /* USER CODE END WHILE */
+	  HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
+	  HAL_Delay(300);
+    /* USER CODE BEGIN 3 */
+  }
+  /* USER CODE END 3 */
+```
 
 # Technical data - configuration
 
